@@ -19,3 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::resource('products', Controller::class);
+
+Route::get('/', function () {
+    return view('welcome');
+});
